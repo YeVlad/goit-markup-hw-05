@@ -93,6 +93,17 @@ img {
   max-width: 100%;
 }
 
+input {
+  border-radius: 4px;
+  border: 1px solid #fcfcfc;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.48px;
+}
+
 /*Header*/
 
 .it-is-header {
@@ -448,6 +459,10 @@ address {
   margin-right: 120px;
 }
 
+.footer-social-media {
+  margin-right: 80px;
+}
+
 .down-word {
   display: inline-block;
   margin-bottom: 16px;
@@ -486,6 +501,36 @@ address {
 .social-media-worker-link.down-green:focus,
 .social-media-worker-link.down-green:hover {
   background-color: #31d0aa;
+}
+
+.input-with-but {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border-color: #fff;
+  background-color: #2e2f42;
+}
+
+.footer-input::placeholder {
+  color: #fff;
+}
+
+.footer-but {
+  padding: 8px 24px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border: none;
+  border-radius: 4px;
+  background: #4d5ae5;
+  cursor: pointer;
 }
 
 /***********/
