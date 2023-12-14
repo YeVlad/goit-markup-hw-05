@@ -566,11 +566,10 @@ address {
 
 /*viewport and form*/
 .place-for-form {
-  display: none;
+  display: fixed;
 }
 
-html .place-for-form.is-open {
-  display: fixed;
+.place-for-form.is-open {
   position: absolute;
   top: 0;
   left: 0;
