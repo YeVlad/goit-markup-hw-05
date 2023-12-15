@@ -520,18 +520,28 @@
             </div>
           </div>
           <div class="div-for">
-            <label class="label-for-form">Phone </label>
+            <label class="label-for-form" for="user-tel">Phone </label>
             <div class="special-for">
-              <input type="tel" class="input-in-form" />
+              <input
+                type="tel"
+                class="input-in-form"
+                name="user-tel"
+                id="user-tel"
+              />
               <svg class="icons-input-for" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone" />
               </svg>
             </div>
           </div>
           <div class="div-for">
-            <label class="label-for-form">Email </label>
+            <label class="label-for-form" for="user-email">Email </label>
             <div class="special-for">
-              <input type="email" class="input-in-form" />
+              <input
+                type="email"
+                class="input-in-form"
+                name="user-email"
+                id="user-email"
+              />
               <svg class="icons-input-for" width="18" height="24">
                 <use href="./images/icons.svg#icon-mail" />
               </svg>
@@ -547,18 +557,24 @@
             ></textarea>
           </div>
           <div class="check-n-text">
-            <label>
-              <input type="checkbox" class="check-priv visually-hidden" />
-              <span class="like-check">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              class="check-priv visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy" class="form-text-privacy"
+              >I accept the terms and conditions of the<a
+                href="#"
+                class="form-link-privacy"
+                >Privacy Policy</a
+              >
+              <span class="like-check" width="16" height="16">
                 <svg class="yes-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-yes" />
-                </svg>
-              </span>
-            </label>
-            <p class="form-text-privacy">
-              I accept the terms and conditions of the
-              <a href="#" class="form-link-privacy">Privacy Policy</a>
-            </p>
+                </svg> </span
+            ></label>
           </div>
           <button type="submit" class="send-btn">Send</button>
         </form>
