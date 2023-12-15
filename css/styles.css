@@ -673,28 +673,21 @@ label {
   padding-left: 38px;
 }
 /*  */
-.label-for-form-tel,
-.label-for-form-name,
-.label-for-form-email {
+.label-for-form {
   display: block;
   margin-bottom: 4px;
 }
 
-.special-for-text,
-.special-for-tel,
-.special-for-email {
+.special-for {
   position: relative;
 }
 
-.div-for-mail,
-.div-for-phone,
-.div-for-text {
+.div-for {
   position: relative;
   margin-bottom: 8px;
 }
-.mail-icon,
-.phone-icon,
-.text-icon {
+
+.icons-input-for {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -807,16 +800,12 @@ label {
   background-color: #404bbf;
 }
 
-.text-icon,
-.phone-icon,
-.mail-icon {
+.icons-input-for {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.text-input:focus + .text-icon,
-.tel-input:focus + .phone-icon,
-.email-input:focus + .mail-icon {
+.input-in-form:focus + .icons-input-for {
   fill: #4d5ae5;
 }
 /***********/
