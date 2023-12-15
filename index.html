@@ -510,7 +510,7 @@
             <div class="special-for">
               <input
                 type="text"
-                class="input-in-form text-input"
+                class="input-in-form"
                 name="user-name"
                 id="user-name"
               />
@@ -522,7 +522,7 @@
           <div class="div-for">
             <label class="label-for-form">Phone </label>
             <div class="special-for">
-              <input type="tel" class="input-in-form tel-input" />
+              <input type="tel" class="input-in-form" />
               <svg class="icons-input-for" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone" />
               </svg>
@@ -531,19 +531,21 @@
           <div class="div-for">
             <label class="label-for-form">Email </label>
             <div class="special-for">
-              <input type="email" class="input-in-form email-input" />
+              <input type="email" class="input-in-form" />
               <svg class="icons-input-for" width="18" height="24">
                 <use href="./images/icons.svg#icon-mail" />
               </svg>
             </div>
           </div>
-          <label class="label-for-form"
-            >Comment
+          <div class="div-for-area">
+            <label class="label-for-form" for="user-comment">Comment </label>
             <textarea
               class="textarea-in-form"
               placeholder="Text input"
+              name="user-comment"
+              id="user-comment"
             ></textarea>
-          </label>
+          </div>
           <div class="check-n-text">
             <label>
               <input type="checkbox" class="check-priv visually-hidden" />
