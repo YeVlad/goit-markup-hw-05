@@ -770,11 +770,11 @@ label {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-priv:checked + .like-check {
+.check-priv:checked + .form-text-privacy .like-check {
   background-color: #404bbf;
 }
 
-.check-priv:checked + .like-check .yes-icon {
+.check-priv:checked + .form-text-privacy .like-check .yes-icon {
   opacity: 1;
 }
 
